@@ -7,7 +7,7 @@
 //
 
 
-#import <React/RCTBridgeModule.h>
+#import "RCTBridgeModule.h"
 
 
 @interface RNUXCam : NSObject <RCTBridgeModule>
