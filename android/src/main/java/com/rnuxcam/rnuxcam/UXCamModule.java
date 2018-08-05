@@ -24,7 +24,7 @@ public class UXCamModule extends ReactContextBaseJavaModule {
 
   @ReactMethod
   public void startWithKey(String key) {
-    UXCam.startApplicationWithKeyForCordova(getCurrentActivity(), key);
+    UXCam.startWithKey(key);
   }
 
   @ReactMethod
